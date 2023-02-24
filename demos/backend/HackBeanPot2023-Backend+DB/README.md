@@ -1,0 +1,7 @@
+# Backend, DB, API from my Hackathon
+
+Admittedly, there's no backend lmao but I was tasked with creating a DB framework and I also created a simple Python call to an API called detectlanguage. This isn't the standard way to call an API in python, but it follows the same procedure more or less: Get the url/module, add your API Key, make a query and store the response. Additionally, the DB file doesn't do anything other than set up a DB with the specified schema, so play around with it if you want to store things.
+
+## IMPORTANT NOTE:
+
+You won't be able to run the detectlanguage script. But that's okay. Why? Because you don't have an API key to authenticate yourself as a valid user and make requests. Many APIs require this as a security feature. But you should NEVER publish an API key to the interwebs for the same reason why you don't publish your passwords, because once it's up there you can pretty much assume your account is compromised. So instead, I put my key in a .env folder, which I haven't added to the repo for obv reasons. But you might ask, "how do you keep the key in the repo but not publish it?". Well, you can include a .gitignore file and add the names of the files you wish for git to ignore, so that it doesn't end up being publicly available on the web.

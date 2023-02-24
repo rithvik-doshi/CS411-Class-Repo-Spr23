@@ -1,0 +1,6 @@
+body {
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
